@@ -70,9 +70,15 @@ export default function IdeasMatrix() {
     localStorage.setItem("sp-hub-ideas", JSON.stringify(next));
   };
 
+  const getVal = (idea: Idea): number | string => {
+    if (sortKey === "score") return calcPriorityScore(idea);
+    const v = idea[sortKey as keyof Idea];
+    return typeof v === "number" ? v : String(v);
+  };
+
   const sorted = [...ideas].sort((a, b) => {
-    let av = sortKey === "score" ? calcPriorityScore(a) : (a as never)[sortKey];
-    let bv = sortKey === "score" ? calcPriorityScore(b) : (b as never)[sortKey];
+    let av = getVal(a);
+    let bv = getVal(b);
     if (typeof av === "string") av = av.toLowerCase();
     if (typeof bv === "string") bv = bv.toLowerCase();
     return sortAsc ? (av > bv ? 1 : -1) : (av < bv ? 1 : -1);
@@ -207,11 +213,11 @@ export default function IdeasMatrix() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-4">
             {(
               [
-                { key: "effort",    label: "Esfuerzo",           color: "#ef4444", desc: "1=trivial · 5=enorme" },
-                { key: "economic",  label: "Potencial económico", color: "#10b981", desc: "1=bajo · 5=muy alto" },
-                { key: "strategic", label: "Interés estratégico", color: "#8b5cf6", desc: "1=táctico · 5=núcleo" },
-                { key: "timeMonths",label: "Meses estimados",     color: "#f59e0b", desc: "tiempo para MVP", isTime: true },
-              ] as const
+                { key: "effort"    , label: "Esfuerzo",           color: "#ef4444", desc: "1=trivial · 5=enorme",  isTime: false },
+                { key: "economic"  , label: "Potencial económico", color: "#10b981", desc: "1=bajo · 5=muy alto",  isTime: false },
+                { key: "strategic" , label: "Interés estratégico", color: "#8b5cf6", desc: "1=táctico · 5=núcleo", isTime: false },
+                { key: "timeMonths", label: "Meses estimados",     color: "#f59e0b", desc: "tiempo para MVP",       isTime: true  },
+              ] as { key: "effort"|"economic"|"strategic"|"timeMonths"; label: string; color: string; desc: string; isTime: boolean }[]
             ).map(({ key, label, color, desc, isTime }) => (
               <div key={key}>
                 <div className="flex justify-between items-center mb-2">

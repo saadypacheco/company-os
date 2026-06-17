@@ -1,19 +1,27 @@
-import Header from "@/components/Header";
-import HeroStats from "@/components/HeroStats";
-import ProjectsGrid from "@/components/ProjectsGrid";
-import IdeasMatrix from "@/components/IdeasMatrix";
-import SlackPanel from "@/components/SlackPanel";
+import NavPublic from "@/components/public/NavPublic";
+import HeroPublic from "@/components/public/HeroPublic";
+import ServicesSection from "@/components/public/ServicesSection";
+import AISection from "@/components/public/AISection";
+import AutomationSection from "@/components/public/AutomationSection";
+import PortfolioSection from "@/components/public/PortfolioSection";
+import ProcessSection from "@/components/public/ProcessSection";
+import BlogSection from "@/components/public/BlogSection";
+import ContactSection from "@/components/public/ContactSection";
 import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
-      <Header />
+      <NavPublic />
       <main>
-        <HeroStats />
-        <ProjectsGrid />
-        <IdeasMatrix />
-        <SlackPanel />
+        <HeroPublic />
+        <ServicesSection />
+        <AISection />
+        <AutomationSection />
+        <PortfolioSection />
+        <ProcessSection />
+        <BlogSection />
+        <ContactSection />
       </main>
       <Footer />
     </>

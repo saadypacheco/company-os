@@ -107,7 +107,7 @@ export default function SlackPanel() {
             </div>
 
             {/* Channels */}
-            <div className="divide-y" style={{ divideBorderColor: "rgba(255,255,255,0.04)" }}>
+            <div className="divide-y divide-white/[0.04]">
               {ws.channels.map((ch) => {
                 const cfg = TYPE_COLORS[ch.type];
                 return (
