@@ -1,0 +1,179 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #05050f;
+  --bg-secondary: #0a0a1a;
+  --bg-card: rgba(10, 10, 30, 0.7);
+  --border-subtle: rgba(0, 191, 255, 0.12);
+  --border-glow: rgba(0, 191, 255, 0.4);
+  --text-primary: #f0f4ff;
+  --text-muted: #6b7280;
+  --accent-cyan: #00bfff;
+  --accent-purple: #8b5cf6;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-primary);
+  background-image:
+    radial-gradient(ellipse at 20% 50%, rgba(0, 80, 140, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 20%, rgba(80, 0, 140, 0.1) 0%, transparent 50%),
+    linear-gradient(rgba(0, 191, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 191, 255, 0.025) 1px, transparent 1px);
+  background-size: auto, auto, 60px 60px, 60px 60px;
+  color: var(--text-primary);
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 191, 255, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 191, 255, 0.6);
+}
+
+/* Glass card */
+.glass-card {
+  background: var(--bg-card);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 12px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: var(--border-glow);
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.08), inset 0 0 20px rgba(0, 191, 255, 0.03);
+}
+
+/* Status glow variants */
+.glow-production {
+  box-shadow: 0 0 0 1px rgba(16, 185, 129, 0.3);
+}
+.glow-production:hover {
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.2), 0 0 0 1px rgba(16, 185, 129, 0.5);
+}
+.glow-active {
+  box-shadow: 0 0 0 1px rgba(0, 191, 255, 0.25);
+}
+.glow-active:hover {
+  box-shadow: 0 0 20px rgba(0, 191, 255, 0.15), 0 0 0 1px rgba(0, 191, 255, 0.5);
+}
+.glow-mvp {
+  box-shadow: 0 0 0 1px rgba(245, 158, 11, 0.2);
+}
+.glow-mvp:hover {
+  box-shadow: 0 0 20px rgba(245, 158, 11, 0.12), 0 0 0 1px rgba(245, 158, 11, 0.4);
+}
+.glow-prototype {
+  box-shadow: 0 0 0 1px rgba(139, 92, 246, 0.2);
+}
+.glow-prototype:hover {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.12), 0 0 0 1px rgba(139, 92, 246, 0.4);
+}
+
+/* Pulse dot */
+.pulse-dot {
+  position: relative;
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.pulse-dot::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  animation: ping 1.5s cubic-bezier(0, 0, 0.2, 1) infinite;
+  opacity: 0.6;
+}
+@keyframes ping {
+  75%, 100% { transform: scale(2); opacity: 0; }
+}
+
+/* Section heading */
+.section-heading {
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--accent-cyan);
+  font-weight: 600;
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #00bfff 0%, #8b5cf6 50%, #10b981 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Score bar */
+.score-bar {
+  height: 4px;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+.score-bar-fill {
+  height: 100%;
+  border-radius: 2px;
+  transition: width 0.6s ease;
+}
+
+/* Input / Select */
+.cyber-input {
+  background: rgba(0, 191, 255, 0.05);
+  border: 1px solid rgba(0, 191, 255, 0.2);
+  border-radius: 8px;
+  color: var(--text-primary);
+  padding: 8px 12px;
+  font-size: 0.875rem;
+  transition: border-color 0.2s;
+  width: 100%;
+  outline: none;
+}
+.cyber-input:focus {
+  border-color: var(--accent-cyan);
+  box-shadow: 0 0 0 2px rgba(0, 191, 255, 0.1);
+}
+.cyber-input::placeholder {
+  color: var(--text-muted);
+}
+
+/* Tag chip */
+.stack-chip {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  background: rgba(0, 191, 255, 0.1);
+  color: rgba(0, 191, 255, 0.8);
+  border: 1px solid rgba(0, 191, 255, 0.15);
+  white-space: nowrap;
+}
