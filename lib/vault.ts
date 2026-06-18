@@ -84,7 +84,7 @@ export const DEFAULT_VAULT: VaultProject[] = [
       other: "VPS Hostinger srv1064770 · Traefik · Whisper models en volumen buscadonde_whisper_models",
     },
     comms: { slack: "#bermejo" },
-    notes: "Dominio interno: buscadonde. 2 contenedores: buscadonde-frontend (3003) + buscadonde-backend (8000). Volumen de modelos Whisper (speech-to-text). Arriba hace 2 días.",
+    notes: "Dominio interno: buscadonde. 2 contenedores: buscadonde-frontend (3003) + buscadonde-backend (8000). Arriba hace 2 días.\n\nWhisper está ahí por diseño: los comerciantes de Bermejo mandan mensajes de VOZ por WhatsApp (muy común en mercados populares de Bolivia). Flujo: audio WhatsApp → WAHA captura → Whisper transcribe → LLM extrae producto/precio/cantidad → aparece en el feed web. Sin Whisper se pierde a todos los que prefieren hablar en lugar de escribir.",
     updatedAt: "",
   },
   {
