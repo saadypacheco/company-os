@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import HeroStats from "@/components/HeroStats";
 import ProjectsGrid from "@/components/ProjectsGrid";
+import ProjectVault from "@/components/ProjectVault";
 import IdeasMatrix from "@/components/IdeasMatrix";
 import SlackPanel from "@/components/SlackPanel";
 import Footer from "@/components/Footer";
@@ -27,6 +28,7 @@ export default async function DashboardPage({
       <main>
         <HeroStats />
         <ProjectsGrid />
+        <ProjectVault />
         <IdeasMatrix />
         <SlackPanel />
       </main>
