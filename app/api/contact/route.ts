@@ -19,7 +19,7 @@ export async function POST(req: NextRequest) {
           type: type ?? "contacto",
           name, email, company, service, message, budget,
           receivedAt: new Date().toISOString(),
-          source: "company-os-landing",
+          source: "altiora-landing",
         }),
       });
     } catch (err) {

@@ -15,7 +15,7 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "hero" });
 
   return {
-    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://company-os.onrender.com"),
+    metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://altiora.vercel.app"),
     title: {
       default: `Saady Pacheco — ${locale === "en" ? "Software Architect · AI · Automation" : locale === "pt" ? "Arquiteto de Software · IA · Automação" : "Arquitecto de Software · IA · Automatización"}`,
       template: "%s | Saady Pacheco",

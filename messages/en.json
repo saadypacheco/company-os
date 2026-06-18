@@ -211,7 +211,7 @@
   },
   "login": {
     "title": "Dashboard Access",
-    "subtitle": "Private area — Company OS",
+    "subtitle": "Private area — Altiora",
     "password": "Password",
     "password_placeholder": "Enter your password",
     "submit": "Sign in →",

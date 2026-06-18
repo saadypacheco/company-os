@@ -236,9 +236,9 @@ export const DEFAULT_VAULT: VaultProject[] = [
   },
   {
     id: "company-os",
-    name: "Company OS (este sitio)",
+    name: "Altiora (este sitio)",
     links: {
-      prod: "https://company-os.onrender.com",
+      prod: "https://altiora.vercel.app",
       dev: "http://localhost:3000",
       github: "https://github.com/saadypacheco/company-os",
     },
@@ -252,7 +252,7 @@ export const DEFAULT_VAULT: VaultProject[] = [
       other: "No está en el VPS — corre en Render (free tier)",
     },
     comms: {},
-    notes: "Next.js 14 + next-intl ES/EN/PT. Deploy automático desde GitHub en Render. Dashboard protegido con DASHBOARD_SECRET.",
+    notes: "Next.js 14 + next-intl ES/EN/PT. Dashboard privado + landing pública. Deploy automático desde GitHub. Repo: saadypacheco/company-os (nombre del repo no se cambia para no romper historial git). Dashboard protegido con DASHBOARD_SECRET.",
     updatedAt: "",
   },
 ];

@@ -3,7 +3,7 @@
 import { useEffect, useState, useCallback } from "react";
 import { DEFAULT_VAULT, type VaultProject, type VaultCredential } from "@/lib/vault";
 
-const LS_KEY = "company-os:vault-v2";
+const LS_KEY = "altiora:vault-v1";
 
 type Section = "links" | "creds" | "infra" | "notes";
 

@@ -7,7 +7,7 @@ import SlackPanel from "@/components/SlackPanel";
 import Footer from "@/components/Footer";
 import Link from "next/link";
 
-export const metadata = { title: "Dashboard — Company OS" };
+export const metadata = { title: "Dashboard — Altiora" };
 
 export default async function DashboardPage({
   params,

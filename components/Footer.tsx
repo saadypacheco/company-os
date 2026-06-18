@@ -17,7 +17,7 @@ export default async function Footer() {
             <span key={s} className="stack-chip" style={{ fontSize: "0.6rem" }}>{s}</span>
           ))}
         </div>
-        <div className="text-xs" style={{ fontFamily: "JetBrains Mono, monospace", color: "#2d3748" }}>Company OS v2.0</div>
+        <div className="text-xs" style={{ fontFamily: "JetBrains Mono, monospace", color: "#2d3748" }}>Altiora v2.0</div>
       </div>
     </footer>
   );
