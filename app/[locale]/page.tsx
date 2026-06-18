@@ -9,7 +9,7 @@ import BlogSection from "@/components/public/BlogSection";
 import ContactSection from "@/components/public/ContactSection";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <NavPublic />

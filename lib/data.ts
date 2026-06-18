@@ -150,6 +150,41 @@ export const PROJECTS: Project[] = [
     features: ["Agente IA de ventas", "Recomendaciones real-time", "Checkout MercadoPago", "WhatsApp integrado", "Multi-tenant"],
     highlight: "Referencia de SaaS multi-tenant — producción en Vercel + Railway",
   },
+  {
+    id: "architect-kb",
+    name: "Architect KB + Skills",
+    tagline: "Sistema de arquitectura de software con metodología SDD",
+    description: "Base de conocimiento personal con metodología SDD (System Design Document). Suite de skills para Claude Code que guían el ciclo completo: idea → stack → bootstrap → feature → handoff. Captura patrones, decisiones y lecciones aprendidas de cada proyecto.",
+    status: "active",
+    stack: ["Claude Code", "YAML/Markdown", "Git", "SDD Methodology"],
+    category: "Dev Tools / IA",
+    repoPath: "architect-kb",
+    features: [
+      "Skills /architect-idea, stack, bootstrap, feature, handoff",
+      "Knowledge base: patrones, ADRs, lecciones",
+      "Anti-sesgo por path dependence",
+      "Journey por proyecto con fases",
+    ],
+    highlight: "Fundamento metodológico de todos los proyectos nuevos",
+  },
+  {
+    id: "buscarjobs-saas",
+    name: "BuscarJobs (Docker SaaS)",
+    tagline: "SaaS self-hosted para búsqueda laboral con IA — distribución Docker",
+    description: "Plataforma completa en un solo contenedor Docker para tracking inteligente de búsqueda laboral. Analiza CVs, evalúa ofertas con IA y gestiona el pipeline de aplicaciones. Modelo BYOK (trae tu propia key de OpenAI/Anthropic).",
+    status: "production",
+    stack: ["Next.js 16", "FastAPI", "SQLite", "Docker", "Anthropic/OpenAI SDK", "Traefik"],
+    category: "SaaS / DevOps",
+    repoPath: "buscarJobs",
+    features: [
+      "Single-image Docker (frontend + backend)",
+      "Multi-stage build con Node 20 + Python 3.12",
+      "CV parsing PDF/DOCX",
+      "Análisis de ofertas con LLM",
+      "Health check + volúmenes persistentes",
+    ],
+    highlight: "Deploy en VPS cliente con docker compose up -d",
+  },
 ];
 
 export const DEFAULT_IDEAS: Idea[] = [

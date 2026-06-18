@@ -1,0 +1,222 @@
+{
+  "nav": {
+    "services": "Serviços",
+    "ai": "IA",
+    "automation": "Automação",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contato",
+    "cta": "Solicitar orçamento",
+    "dashboard": "Dashboard →"
+  },
+  "hero": {
+    "badge": "Disponível para novos projetos · LATAM",
+    "title1": "Construo sistemas",
+    "title2": "que escalam.",
+    "subtitle": "Software sob medida, inteligência artificial e automação de processos para empresas que querem crescer sem fricção.",
+    "bio": "Engenheiro de Sistemas (UNICEN). +25 anos construindo produtos em produção. Minha tese de graduação foi sobre redes neurais aplicadas a CRM — o que hoje chamamos de IA era minha área de pesquisa antes de o termo existir.",
+    "cta_primary": "Solicitar orçamento grátis",
+    "cta_secondary": "Ver casos de sucesso",
+    "stats": {
+      "experience": "anos de experiência",
+      "projects": "projetos ativos em 2025",
+      "countries": "países atendidos",
+      "delivery": "em produção"
+    }
+  },
+  "services": {
+    "heading": "serviços",
+    "title": "Como posso te ajudar?",
+    "subtitle": "Do design ao deploy. Trabalho end-to-end ou me integro à sua equipe onde for mais necessário.",
+    "cta": "Consultar sobre este serviço →",
+    "items": [
+      {
+        "icon": "◈",
+        "title": "Desenvolvimento de Software",
+        "subtitle": "Web · Mobile · APIs",
+        "desc": "Aplicações web e mobile sob medida com tecnologias modernas. De MVP em semanas a plataformas multi-tenant escaláveis.",
+        "features": ["Next.js / React / React Native", "FastAPI / Node.js", "Supabase / PostgreSQL", "Deploy no Vercel · Render · Railway"]
+      },
+      {
+        "icon": "◉",
+        "title": "Soluções de IA",
+        "subtitle": "LLMs · Agentes · RAG",
+        "desc": "Integração real de inteligência artificial ao seu negócio: assistentes conversacionais, análise automática de dados e agentes autônomos.",
+        "features": ["Agentes IA com OpenAI / Gemini", "RAG sobre seus documentos", "Processamento de linguagem natural", "Visão computacional"]
+      },
+      {
+        "icon": "⬡",
+        "title": "Automação de Processos",
+        "subtitle": "n8n · Workflows · APIs",
+        "desc": "Elimine o trabalho manual repetitivo. Conectamos suas ferramentas e automatizamos fluxos completos com n8n e APIs.",
+        "features": ["Fluxos n8n + webhooks", "Integração WhatsApp / Slack", "CRMs e ERPs conectados", "Relatórios automáticos"]
+      },
+      {
+        "icon": "◆",
+        "title": "Consultoria Técnica",
+        "subtitle": "Arquitetura · Estratégia · Equipe",
+        "desc": "Revisão de arquitetura, definição de stack, onboarding de equipes e suporte em decisões técnicas críticas.",
+        "features": ["Auditoria de código e arquitetura", "Roadmap técnico com metodologia SDD", "Scrum / Kanban / Agile", "Mentoring de equipes"]
+      }
+    ]
+  },
+  "ai": {
+    "heading": "inteligência artificial",
+    "title": "IA que realmente",
+    "title2": "trabalha na sua empresa",
+    "desc": "Sem demos, sem promessas vazias. Integro modelos de linguagem avançados (OpenAI, Gemini, Anthropic) diretamente nos seus processos para automatizar trabalho real e gerar valor mensurável. Minha tese universitária foi sobre redes neurais — há décadas penso em como a IA pode resolver problemas de negócios.",
+    "cta": "Falar sobre meu caso →",
+    "terminal_comment1": "MentorComercial — IA para equipes de vendas",
+    "terminal_comment2": "SoluçõesDentais — IA recepcionista",
+    "usecases": [
+      { "icon": "💬", "title": "Assistentes conversacionais", "desc": "Chatbots com contexto real do seu negócio. Respondem perguntas, recebem pedidos, qualificam leads e escalam ao humano quando necessário." },
+      { "icon": "🔍", "title": "RAG sobre seus documentos", "desc": "Envie seus manuais, contratos ou relatórios. A IA os lê, entende e responde perguntas precisas sobre eles." },
+      { "icon": "🤖", "title": "Agentes autônomos", "desc": "Workflows multi-etapa que pensam e agem: buscam informações, atualizam sistemas, enviam notificações e geram relatórios sozinhos." },
+      { "icon": "📊", "title": "Análise e resumos executivos", "desc": "Reuniões intermináveis? A IA transcreve, resume, detecta decisões e as entrega estruturadas em segundos." },
+      { "icon": "🎯", "title": "Classificação e scoring", "desc": "Leads, tickets, ideias, CVs: a IA classifica, prioriza e pontua conforme seus critérios, sem intervenção manual." },
+      { "icon": "👁️", "title": "Visão computacional", "desc": "Análise de imagens e fotos: leitura de documentos, reconhecimento de produtos, controle de qualidade visual." }
+    ]
+  },
+  "automation": {
+    "heading": "automação",
+    "title": "Automatize o trabalho",
+    "title2": "que consome seu tempo",
+    "desc": "Com n8n e uma boa arquitetura de automação, você elimina o trabalho manual repetitivo e libera sua equipe para o que importa.",
+    "stat": "~70%",
+    "stat_label": "das tarefas operacionais automatizáveis",
+    "tools_label": "FERRAMENTAS E PLATAFORMAS",
+    "saving_label": "economia",
+    "flows": [
+      {
+        "trigger": "Novo lead no site",
+        "steps": ["Cria contato no CRM", "Envia WhatsApp de boas-vindas", "Atribui vendedor", "Agenda lembrete"],
+        "saving": "3 h/dia"
+      },
+      {
+        "trigger": "Venda fechada",
+        "steps": ["Gera contrato automático", "Envia fatura", "Cria projeto no sistema", "Notifica equipe técnica"],
+        "saving": "45 min/operação"
+      },
+      {
+        "trigger": "Ticket de suporte aberto",
+        "steps": ["Classifica urgência com IA", "Atribui ao técnico correto", "Notifica o cliente", "Escalada se sem resposta em 2h"],
+        "saving": "2 h/dia"
+      }
+    ]
+  },
+  "portfolio": {
+    "heading": "portfolio",
+    "title": "Projetos em produção",
+    "subtitle": "Produtos reais, stacks modernos, problemas concretos resolvidos. Cada um começou como uma ideia.",
+    "viewAll": "Ver todos os projetos →",
+    "status": {
+      "production": "Em produção",
+      "active": "Ativo",
+      "mvp": "MVP pronto",
+      "prototype": "Protótipo"
+    }
+  },
+  "process": {
+    "heading": "metodologia",
+    "title": "Como trabalho",
+    "steps": [
+      { "n": "01", "title": "Entendemos seu problema", "desc": "Uma chamada de 30 minutos para entender o que você precisa, o que tem hoje e qual resultado busca. Sem jargões, sem vender." },
+      { "n": "02", "title": "Proposta e arquitetura", "desc": "Projeto a solução técnica com metodologia SDD, defino o stack, estimo prazos e apresento um roadmap claro e acionável por fases." },
+      { "n": "03", "title": "MVP em semanas", "desc": "Começamos pelo núcleo que entrega valor real. Em 2–4 semanas você tem algo funcional nas mãos de usuários reais." },
+      { "n": "04", "title": "Iteramos com dados", "desc": "Medimos, ajustamos e continuamos construindo em ciclos curtos. O produto melhora com feedback real, não com suposições." }
+    ],
+    "trust": [
+      { "value": "100%", "label": "Projetos entregues no prazo" },
+      { "value": "12+", "label": "Projetos em produção" },
+      { "value": "25+", "label": "Anos construindo software" },
+      { "value": "SDD", "label": "Metodologia própria documentada" }
+    ]
+  },
+  "blog": {
+    "heading": "blog",
+    "title": "O que fui aprendendo",
+    "readMore": "Ler →",
+    "comingSoon": "Blog completo em breve · Por enquanto escrevo no LinkedIn",
+    "subscribe": "Assinar →",
+    "posts": [
+      {
+        "tag": "IA",
+        "title": "Como implementei um agente de vendas IA no WhatsApp em 2 semanas",
+        "desc": "O stack, os problemas reais que apareceram e por que Whisper + GPT-4 muda a dinâmica de uma equipe comercial.",
+        "date": "Maio 2025",
+        "readTime": "8 min"
+      },
+      {
+        "tag": "Automação",
+        "title": "n8n vs Zapier: por que escolhi self-hosted para meus clientes",
+        "desc": "Custo, flexibilidade e controle. A análise real após migrar 3 workflows de produção.",
+        "date": "Abril 2025",
+        "readTime": "6 min"
+      },
+      {
+        "tag": "Arquitetura",
+        "title": "SDD: a metodologia que uso para iniciar qualquer projeto",
+        "desc": "System Design Document como ferramenta de comunicação entre cliente, dev e IA. Por que funciona desde 2000.",
+        "date": "Março 2025",
+        "readTime": "10 min"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "contato",
+    "title": "Vamos falar sobre",
+    "title2": "seu projeto",
+    "subtitle": "Me conte o que precisa. Respondo em menos de 24 horas com ideias concretas, não com uma proposta genérica.",
+    "info": {
+      "email_label": "Email",
+      "email_value": "saadypacheco@gmail.com",
+      "whatsapp_label": "WhatsApp",
+      "whatsapp_value": "Disponível por consulta",
+      "location_label": "Localização",
+      "location_value": "Argentina · Bolívia · Remoto",
+      "response_label": "Resposta",
+      "response_value": "Em menos de 24 horas"
+    },
+    "tabs": { "quick": "Consulta rápida", "budget": "Solicitar orçamento" },
+    "form": {
+      "name": "Nome",
+      "name_placeholder": "Seu nome",
+      "email": "Email",
+      "email_placeholder": "voce@email.com",
+      "company": "Empresa / Projeto",
+      "company_placeholder": "Nome da sua empresa ou projeto",
+      "service": "O que você precisa?",
+      "service_placeholder": "Selecione um serviço",
+      "budget": "Orçamento estimado",
+      "budget_placeholder": "Você tem uma ideia do orçamento?",
+      "message": "Mensagem",
+      "message_placeholder_quick": "Me conte sua dúvida ou ideia...",
+      "message_placeholder_budget": "Descreva o projeto: que problema resolve, quem vai usar, o que você tem hoje...",
+      "submit_quick": "Enviar consulta →",
+      "submit_budget": "Solicitar orçamento →",
+      "submitting": "Enviando..."
+    },
+    "services": ["Desenvolvimento de Software", "Soluções de IA", "Automação de Processos", "Consultoria Técnica", "Outro / Ainda não sei"],
+    "budgets": ["Menos de $1.000 USD", "$1.000 – $5.000 USD", "$5.000 – $15.000 USD", "$15.000+ USD", "Prefiro discutir na chamada"],
+    "success": {
+      "title": "Mensagem recebida!",
+      "desc": "Respondo em menos de 24 horas. Se for urgente, mencione na mensagem.",
+      "back": "Enviar outra mensagem"
+    },
+    "error": "Houve um erro ao enviar. Escreva diretamente para saadypacheco@gmail.com"
+  },
+  "footer": {
+    "role": "Arquiteto de Software · Consultor Sênior",
+    "tagline": "saadypacheco@gmail.com · Argentina / Bolívia"
+  },
+  "login": {
+    "title": "Acesso ao Dashboard",
+    "subtitle": "Área privada — Company OS",
+    "password": "Senha",
+    "password_placeholder": "Digite sua senha",
+    "submit": "Entrar →",
+    "submitting": "Verificando...",
+    "error": "Senha incorreta",
+    "back": "← Voltar ao início"
+  }
+}

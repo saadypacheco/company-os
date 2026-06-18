@@ -1,0 +1,222 @@
+{
+  "nav": {
+    "services": "Services",
+    "ai": "AI",
+    "automation": "Automation",
+    "portfolio": "Portfolio",
+    "blog": "Blog",
+    "contact": "Contact",
+    "cta": "Request a quote",
+    "dashboard": "Dashboard →"
+  },
+  "hero": {
+    "badge": "Available for new projects · LATAM",
+    "title1": "I build systems",
+    "title2": "that scale.",
+    "subtitle": "Custom software, artificial intelligence, and process automation for companies that want to grow without friction.",
+    "bio": "Systems Engineer (UNICEN). 25+ years building products in production. My thesis was on neural networks applied to CRM — what we now call AI was my research area before the term existed.",
+    "cta_primary": "Get a free quote",
+    "cta_secondary": "See case studies",
+    "stats": {
+      "experience": "years of experience",
+      "projects": "active projects in 2025",
+      "countries": "countries served",
+      "delivery": "in production"
+    }
+  },
+  "services": {
+    "heading": "services",
+    "title": "How can I help you?",
+    "subtitle": "From design to deployment. I work end-to-end or integrate into your team wherever you need me most.",
+    "cta": "Ask about this service →",
+    "items": [
+      {
+        "icon": "◈",
+        "title": "Software Development",
+        "subtitle": "Web · Mobile · APIs",
+        "desc": "Custom web and mobile applications with modern technologies. From MVP in weeks to scalable multi-tenant platforms.",
+        "features": ["Next.js / React / React Native", "FastAPI / Node.js", "Supabase / PostgreSQL", "Deploy on Vercel · Render · Railway"]
+      },
+      {
+        "icon": "◉",
+        "title": "AI Solutions",
+        "subtitle": "LLMs · Agents · RAG",
+        "desc": "Real artificial intelligence integration into your business: conversational assistants, automated data analysis, and autonomous agents.",
+        "features": ["AI agents with OpenAI / Gemini", "RAG over your documents", "Natural language processing", "Computer vision"]
+      },
+      {
+        "icon": "⬡",
+        "title": "Process Automation",
+        "subtitle": "n8n · Workflows · APIs",
+        "desc": "Eliminate repetitive manual work. We connect your tools and automate complete flows with n8n and APIs.",
+        "features": ["n8n flows + webhooks", "WhatsApp / Slack integration", "Connected CRMs and ERPs", "Automatic reports"]
+      },
+      {
+        "icon": "◆",
+        "title": "Technical Consulting",
+        "subtitle": "Architecture · Strategy · Team",
+        "desc": "Architecture review, stack definition, team onboarding, and support in critical technical decisions.",
+        "features": ["Code and architecture audit", "Technical roadmap with SDD methodology", "Scrum / Kanban / Agile", "Team mentoring"]
+      }
+    ]
+  },
+  "ai": {
+    "heading": "artificial intelligence",
+    "title": "AI that actually",
+    "title2": "works in your company",
+    "desc": "No demos, no empty promises. I integrate advanced language models (OpenAI, Gemini, Anthropic) directly into your processes to automate real work and generate measurable value. My university thesis was on neural networks — I've been thinking about how AI can solve business problems for decades.",
+    "cta": "Talk about my use case →",
+    "terminal_comment1": "MentorComercial — AI for sales teams",
+    "terminal_comment2": "DentalSolutions — AI receptionist",
+    "usecases": [
+      { "icon": "💬", "title": "Conversational assistants", "desc": "Chatbots with real knowledge of your business. They answer questions, take orders, qualify leads, and escalate to humans when needed." },
+      { "icon": "🔍", "title": "RAG over your documents", "desc": "Upload your manuals, contracts or reports. AI reads them, understands them, and answers precise questions about them." },
+      { "icon": "🤖", "title": "Autonomous agents", "desc": "Multi-step workflows that think and act: search for information, update systems, send notifications and generate reports on their own." },
+      { "icon": "📊", "title": "Analysis and executive summaries", "desc": "Endless meetings? AI transcribes, summarizes, detects decisions and agreements, and delivers them structured in seconds." },
+      { "icon": "🎯", "title": "Classification and scoring", "desc": "Leads, tickets, ideas, CVs: AI classifies, prioritizes, and scores them according to your criteria, without manual intervention." },
+      { "icon": "👁️", "title": "Computer vision", "desc": "Image and photo analysis: document reading, product recognition, visual quality control." }
+    ]
+  },
+  "automation": {
+    "heading": "automation",
+    "title": "Automate the work",
+    "title2": "that consumes your time",
+    "desc": "With n8n and a solid automation architecture, you eliminate repetitive manual work and free your team for what matters.",
+    "stat": "~70%",
+    "stat_label": "of operational tasks automatable",
+    "tools_label": "TOOLS AND PLATFORMS",
+    "saving_label": "savings",
+    "flows": [
+      {
+        "trigger": "New lead on the website",
+        "steps": ["Creates CRM contact", "Sends welcome WhatsApp", "Assigns salesperson", "Schedules reminder"],
+        "saving": "3 hrs/day"
+      },
+      {
+        "trigger": "Sale closed",
+        "steps": ["Auto-generates contract", "Sends invoice", "Creates project in system", "Notifies tech team"],
+        "saving": "45 min/operation"
+      },
+      {
+        "trigger": "Support ticket opened",
+        "steps": ["Classifies urgency with AI", "Assigns to correct technician", "Notifies client", "Escalates if no response in 2h"],
+        "saving": "2 hrs/day"
+      }
+    ]
+  },
+  "portfolio": {
+    "heading": "portfolio",
+    "title": "Live projects",
+    "subtitle": "Real products, modern stacks, concrete problems solved. Each one started as an idea.",
+    "viewAll": "See all projects →",
+    "status": {
+      "production": "Live",
+      "active": "Active",
+      "mvp": "MVP ready",
+      "prototype": "Prototype"
+    }
+  },
+  "process": {
+    "heading": "methodology",
+    "title": "How I work",
+    "steps": [
+      { "n": "01", "title": "We understand your problem", "desc": "A 30-minute call to understand what you need, what you have today, and what result you're looking for. No jargon, no selling." },
+      { "n": "02", "title": "Proposal and architecture", "desc": "I design the technical solution using SDD methodology, define the stack, estimate timelines, and present a clear, actionable phase roadmap." },
+      { "n": "03", "title": "MVP in weeks", "desc": "We start with the core that delivers real value. In 2–4 weeks you have something functional in the hands of real users." },
+      { "n": "04", "title": "We iterate with data", "desc": "We measure, adjust, and keep building in short cycles. The product improves with real feedback, not assumptions." }
+    ],
+    "trust": [
+      { "value": "100%", "label": "Projects delivered on time" },
+      { "value": "12+", "label": "Projects in production" },
+      { "value": "25+", "label": "Years building software" },
+      { "value": "SDD", "label": "Own documented methodology" }
+    ]
+  },
+  "blog": {
+    "heading": "blog",
+    "title": "What I've been learning",
+    "readMore": "Read →",
+    "comingSoon": "Full blog coming soon · Currently writing on LinkedIn",
+    "subscribe": "Subscribe →",
+    "posts": [
+      {
+        "tag": "AI",
+        "title": "How I built an AI sales agent on WhatsApp in 2 weeks",
+        "desc": "The stack, the real problems that came up, and why Whisper + GPT-4 changes the dynamic of a sales team.",
+        "date": "May 2025",
+        "readTime": "8 min"
+      },
+      {
+        "tag": "Automation",
+        "title": "n8n vs Zapier: why I chose self-hosted for my clients",
+        "desc": "Cost, flexibility and control. The real analysis after migrating 3 production workflows.",
+        "date": "April 2025",
+        "readTime": "6 min"
+      },
+      {
+        "tag": "Architecture",
+        "title": "SDD: the methodology I use to kick off any project",
+        "desc": "System Design Document as a communication tool between client, dev, and AI. Why it has worked since 2000.",
+        "date": "March 2025",
+        "readTime": "10 min"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "contact",
+    "title": "Let's talk about",
+    "title2": "your project",
+    "subtitle": "Tell me what you need. I'll respond within 24 hours with concrete ideas, not a generic proposal.",
+    "info": {
+      "email_label": "Email",
+      "email_value": "saadypacheco@gmail.com",
+      "whatsapp_label": "WhatsApp",
+      "whatsapp_value": "Available on request",
+      "location_label": "Location",
+      "location_value": "Argentina · Bolivia · Remote",
+      "response_label": "Response time",
+      "response_value": "Within 24 hours"
+    },
+    "tabs": { "quick": "Quick inquiry", "budget": "Request a quote" },
+    "form": {
+      "name": "Name",
+      "name_placeholder": "Your name",
+      "email": "Email",
+      "email_placeholder": "you@email.com",
+      "company": "Company / Project",
+      "company_placeholder": "Your company or project name",
+      "service": "What do you need?",
+      "service_placeholder": "Select a service",
+      "budget": "Estimated budget",
+      "budget_placeholder": "Do you have a budget in mind?",
+      "message": "Message",
+      "message_placeholder_quick": "Tell me about your inquiry or idea...",
+      "message_placeholder_budget": "Describe the project: what problem you're solving, who will use it, what you have today...",
+      "submit_quick": "Send inquiry →",
+      "submit_budget": "Request quote →",
+      "submitting": "Sending..."
+    },
+    "services": ["Software Development", "AI Solutions", "Process Automation", "Technical Consulting", "Other / Not sure yet"],
+    "budgets": ["Less than $1,000 USD", "$1,000 – $5,000 USD", "$5,000 – $15,000 USD", "$15,000+ USD", "I'd rather discuss it on a call"],
+    "success": {
+      "title": "Message received!",
+      "desc": "I'll respond within 24 hours. If it's urgent, mention it in the message.",
+      "back": "Send another message"
+    },
+    "error": "There was an error sending. Write to me directly at saadypacheco@gmail.com"
+  },
+  "footer": {
+    "role": "Software Architect · Senior Consultant",
+    "tagline": "saadypacheco@gmail.com · Argentina / Bolivia"
+  },
+  "login": {
+    "title": "Dashboard Access",
+    "subtitle": "Private area — Company OS",
+    "password": "Password",
+    "password_placeholder": "Enter your password",
+    "submit": "Sign in →",
+    "submitting": "Verifying...",
+    "error": "Incorrect password",
+    "back": "← Back to home"
+  }
+}
