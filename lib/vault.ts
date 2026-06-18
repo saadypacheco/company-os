@@ -238,7 +238,7 @@ export const DEFAULT_VAULT: VaultProject[] = [
     id: "company-os",
     name: "Altiora (este sitio)",
     links: {
-      prod: "https://altiora.vercel.app",
+      prod: "https://altiora.onrender.com",
       dev: "http://localhost:3000",
       github: "https://github.com/saadypacheco/company-os",
     },
